@@ -1,0 +1,337 @@
+/* IMPORTS E VARIAVEIS */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+    --cor1: #FF5722;
+    --cor2: #677e5e;
+    --cor3: #372772;
+    --cor4: #F2EFE9;
+    --cor5: #7B6B43;
+}
+
+/* **********************************  */
+
+/* BODY E DIV PRINCIPAL */
+
+body {
+    background-color: var(--cor4);
+    font-family: 'Roboto', sans-serif;
+}
+
+#principal {
+    width: 90%;
+    max-width: 90%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    padding: 215px 20px 20px 20px;
+}
+
+/*************************************************/
+
+
+/* CABEÇALHO E MENU */
+
+.cabecalho {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+
+    text-align: center;
+    background-color: #FF5722;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho h1 {
+    margin-bottom: 0px;
+    font-size: 3em;
+    padding-bottom: 0;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+    color: white;
+    padding: 0 20px 0 20px;
+    margin-bottom: 4px;
+
+}
+
+.lista-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.lista-menu a:hover {
+    color: var(--cor3);
+}
+
+/**************************************************************/
+
+/* DEFINIÇÃO, FUNÇÃO E IMAGEM */
+
+.secao-definicao {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.container-img-p {
+    text-align: justify;
+}
+
+/***************************************************************/
+
+/* TABELA E LISTA */
+
+.container-tabela-lista {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+    background-color:  var(--cor2);
+    border-radius: 10px;
+}
+
+.secao-tabela {
+    width: 100%;
+    padding: 10px;
+}
+
+.h3-tabela {
+    margin: 0 0 8px 0;
+}
+
+.tabela {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 90%;
+    
+}
+
+thead {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+tbody {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+tr th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.link-tabela {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.link-tabela a {
+    color: var(--cor4);
+    text-decoration: none;
+}
+
+.link-tabela a:hover {
+    color: var(--cor1);
+}
+
+.secao-lista {
+    margin-left: -20px;
+}
+
+.lista  {
+    margin: 10px 0;
+    text-align: justify;
+    padding: 0px 10px 10px 0;
+}
+
+.lista li {
+    margin-bottom: 4px;
+}
+
+.h3-lista {
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+/*****************************************************/
+
+/* DEFINIÇÕES HTML, CSS, JS */
+
+.container-definicao {
+    display: flex;
+    
+}
+
+.css {
+    background-color: #372772;
+    color: white;
+    padding: 10px;
+    height: 90%;
+    text-align: justify;
+    border-radius: 10px;
+
+}
+
+.css h3 {
+    text-align: center;
+}
+
+.html {
+    background-color: var(--cor1);
+    color: white;
+    padding: 10px;
+    height: 90%;
+    text-align: justify;
+    border-radius: 10px;
+    margin: 0 10px;
+
+}
+
+.html h3 {
+    text-align: center;
+}
+
+.js {
+    background-color: var(--cor5);
+    color: white;
+    padding: 10px;
+    height: 90%;
+    text-align: justify;
+    border-radius: 10px;
+    margin: 0;
+
+}
+
+.js h3 {
+    text-align: center;
+}
+
+/*********************************************************/
+
+/* RODAPE */
+
+
+footer {
+    width: 92%;
+    max-width: 92%;
+    margin: 10px auto;
+    background-color: var(--cor1);
+    color: Black;
+    border-radius: 20px;
+    
+}
+
+footer div {
+    margin: 10px 10px 0px 10px;
+}
+
+footer h3 {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: var(--cor3);
+}
+
+.container_rodape { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+} /* DISPLAY GRID 4 COLUNAS E UMA LINHA*/
+
+.sobre ul {
+    list-style: none;
+    background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.sobre h3 {
+    text-align: center;
+}
+
+.opcoes ul {
+    list-style: none;
+    background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.opcoes h3 {
+    text-align: center;
+}
+
+.categorias ul {
+    list-style: none;
+    background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.categorias h3 {
+    text-align: center;
+}
+
+.contatos ul {
+    list-style: none;
+    background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.contatos h3 {
+    text-align: center;
+}
+
+#criador {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+#criador a {
+    color: white;
+}
+
+#criador a:hover {
+    color: var(--cor3);
+}
