@@ -1,0 +1,244 @@
+/* IMPORTS E VARIAVEIS */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+    --cor1: #FF5722;
+    --cor2: #677e5e;
+    --cor3: #372772;
+    --cor4: #F2EFE9;
+    --cor5: #7B6B43;
+}
+
+/* **********************************  */
+
+/* BODY E DIV PRINCIPAL */
+
+body {
+    background-color: var(--cor4);
+    font-family: 'Roboto', sans-serif;
+}
+
+#principal {
+    width: 90%;
+    max-width: 90%;
+    margin: 20px auto 0px auto;
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    padding: 215px 10px 10px 10px;
+}
+
+/*************************************************/
+
+
+/* CABEÇALHO E MENU */
+
+.cabecalho {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+
+    text-align: center;
+    background-color: #FF5722;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho h1 {
+    margin-bottom: 0px;
+    font-size: 3em;
+    padding-bottom: 0;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+    color: white;
+    padding: 0 20px 0 20px;
+    margin-bottom: 4px;
+
+}
+
+.lista-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.lista-menu a:hover {
+    color: var(--cor3);
+}
+
+
+/* FORMULARIO */
+
+.conteudo {
+    margin: 9px auto;
+    padding: 10px;
+}
+
+.conteudo h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-align: center;
+    padding: 0;
+}
+
+form {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    width: 40%;
+    background-color: #372772;
+    color: white;
+    font-weight: bolder;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+input[type="text"], [type="email"] {
+    width: 90%;
+    border: 2px solid #FF5722;
+}
+
+select {
+    width: 91%;
+    border: 2px solid #FF5722;
+}
+
+textarea {
+    width: 90%;
+    border: 2px solid #FF5722;
+    resize: none;
+}
+
+button {
+    background-color: #FF5722;
+    color: white;
+    font-family:  'Roboto', sans-serif;
+    padding: 8px;
+
+}
+
+button:hover {
+   background-color: #677e5e;
+}
+
+
+
+/**********************************************/
+
+/* RODAPE */
+
+
+footer {
+    width: 90%;
+    max-width: 90%;
+    margin: 0px auto 20px auto;
+    background-color: black;
+    padding:  10px;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+
+footer div {
+    margin: 10px 10px 0px 10px;
+}
+
+footer h3 {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: var(--cor3);
+}
+
+.container_rodape { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+} /* DISPLAY GRID 4 COLUNAS E UMA LINHA*/
+
+.sobre ul {
+    list-style: none;
+    background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.sobre h3 {
+    text-align: center;
+}
+
+.opcoes ul {
+    list-style: none;
+    background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.opcoes h3 {
+    text-align: center;
+}
+
+.categorias ul {
+    list-style: none;
+    background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.categorias h3 {
+    text-align: center;
+}
+
+.contatos ul {
+    list-style: none;
+    background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.contatos h3 {
+    text-align: center;
+}
+
+#criador {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+#criador a {
+    color: white;
+}
+
+#criador a:hover {
+    color: var(--cor3);
+}
